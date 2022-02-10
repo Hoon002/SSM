@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>썽겜 - 박성현을 보기만 할 수는 없다!</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #sh {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><a href="index.html" style="color : skyblue; text-decoration: none;">성사모</a></h1>
+
+    <div>
+    <script>
+        document.write(3+3);
+    </script>
+
+    <input type="button" value="성현이 부르기" onclick= "alert('웬만하면 성현이가 자고 있을 때 부르지 않는 것이 좋을거야!')">
+    <input type="text" onchange="alert('성현이한테 전달해주도록 하지')">
+    <input type="text" onkeydown="alert('한 글자 한 글자 주의 깊게 생각해봐')">
+
+    </div>
+
+        <img src="sh (5).jpg" width = "15%" id="sh">
+
+    <div>
+        <input type="button" value="성현이 진짜로 부르기" onclick="document.querySelector('#sh').style.display = 'block'">
+        <input type="button" value="성현이 보내기" onclick="document.querySelector('#sh').style.display = 'none'">
+    </div>
+
+    <div>
+        <input type="button" value="성현이는 이미 눈이 부셔서 불을 좀 꺼도 될 것 같아요!" style="margin: 8px; padding: 30px;" onclick="document.querySelector('body').style.backgroundColor = 'black'">
+        <input type="button" value="성현이가 가버렸으니 불을 켜주세요!" style="margin: 8px; padding: 30px;" onclick="document.querySelector('body').style.backgroundColor = 'white'">
+        <input type="button" value="성현이를 보고 자면 좋을 것 같아요 수면등으로 바꾸어 주세요!" style="margin: 8px; padding: 30px;" onclick="document.querySelector('body').style.backgroundColor = 'rgb(249, 232, 181)'">
+    </div>
+
+</body>
+</html>
